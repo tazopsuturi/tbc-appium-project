@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Full regression suite. The HTML report listener is attached in BaseTest. -->
+<suite name="My Demo App - Android" verbose="1">
+    <test name="Login">
+        <classes>
+            <class name="com.tbc.appium.tests.LoginTests"/>
+        </classes>
+    </test>
+    <test name="Navigation">
+        <classes>
+            <class name="com.tbc.appium.tests.NavigationTests"/>
+        </classes>
+    </test>
+    <test name="Cart">
+        <classes>
+            <class name="com.tbc.appium.tests.CartTests"/>
+        </classes>
+    </test>
+    <test name="Checkout">
+        <classes>
+            <class name="com.tbc.appium.tests.CheckoutTests"/>
+        </classes>
+    </test>
+</suite>
